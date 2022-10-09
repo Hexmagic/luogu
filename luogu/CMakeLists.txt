@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.12)
+project("luogu")
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=c++11 -O3")
+set(TESTFOLDERS greedy)
+
+add_subdirectory("dynamic")
+add_subdirectory("search")
+add_subdirectory("greedy")
+add_subdirectory("graph")
